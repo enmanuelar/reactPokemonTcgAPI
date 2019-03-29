@@ -1,0 +1,22 @@
+{
+  "name": "pokemon_tcg_api",
+  "version": "1.0.0",
+  "description": "The api for the pokemon tcg ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/server.js",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json,md}\""
+  },
+  "author": "Enmanuel Almonte",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "jsdoc": "^3.5.5",
+    "prettier": "^1.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
